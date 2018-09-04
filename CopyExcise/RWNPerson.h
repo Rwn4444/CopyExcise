@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RWNPerson : NSObject
+@interface RWNPerson : NSObject<NSCopying,NSMutableCopying>
+
+@property(nonatomic,copy) NSString * name;
+
+@property(nonatomic,assign) NSInteger age;
 
 @end

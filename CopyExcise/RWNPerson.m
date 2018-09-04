@@ -10,4 +10,24 @@
 
 @implementation RWNPerson
 
+
+-(id)copyWithZone:(NSZone *)zone{
+    
+    RWNPerson *per = [[RWNPerson alloc] init];
+    per.name=self.name;
+    per.age=self.age;
+    return  per;
+    
+}
+
+-(id)mutableCopyWithZone:(NSZone *)zone{
+    
+    RWNPerson *per = [[RWNPerson alloc] init];
+    per.name=self.name;
+    per.age=self.age;
+    return  per;
+    
+}
+
+
 @end

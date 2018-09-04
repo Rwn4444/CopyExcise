@@ -13,6 +13,7 @@
 		3C9C4E54213E217100A61BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9C4E53213E217100A61BDD /* Assets.xcassets */; };
 		3C9C4E57213E217100A61BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9C4E55213E217100A61BDD /* LaunchScreen.storyboard */; };
 		3C9C4E5A213E217100A61BDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C4E59213E217100A61BDD /* main.m */; };
+		3C9C4E84213E5A7100A61BDD /* RWNPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C4E83213E5A7100A61BDD /* RWNPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3C9C4E56213E217100A61BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C9C4E58213E217100A61BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C9C4E59213E217100A61BDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C9C4E82213E5A7100A61BDD /* RWNPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWNPerson.h; sourceTree = "<group>"; };
+		3C9C4E83213E5A7100A61BDD /* RWNPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWNPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3C9C4E55213E217100A61BDD /* LaunchScreen.storyboard */,
 				3C9C4E58213E217100A61BDD /* Info.plist */,
 				3C9C4E59213E217100A61BDD /* main.m */,
+				3C9C4E82213E5A7100A61BDD /* RWNPerson.h */,
+				3C9C4E83213E5A7100A61BDD /* RWNPerson.m */,
 			);
 			path = CopyExcise;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9C4E84213E5A7100A61BDD /* RWNPerson.m in Sources */,
 				3C9C4E4F213E217000A61BDD /* ViewController.m in Sources */,
 				3C9C4E5A213E217100A61BDD /* main.m in Sources */,
 				3C9C4E4C213E217000A61BDD /* AppDelegate.m in Sources */,

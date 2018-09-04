@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "RWNPerson.h"
 @interface ViewController ()
 
 @end
@@ -18,20 +18,25 @@
     
     [super viewDidLoad];
     
-    /*
-    NSString *str1 = @"test";
+    
+    NSString *str1 = [[NSString alloc] initWithFormat:@"%@",@"123"];
     //浅拷贝 只拷贝了指针
     NSString *str2 = [str1 copy];
     //深拷贝 拷贝了一个新的对象
     NSString *str3 = [str1 mutableCopy];
-    
-    
+    NSLog(@"%p--%p--%p",str1,str2,str3);
+    NSLog(@"%@--%@--%@",[str1 class],[str2 class],[str3 class]);
+
+    /*
     NSMutableString *str1 =[NSMutableString stringWithFormat:@"test"] ;
     //深拷贝 拷贝了一个新的对象
     NSString *str2 = [str1 copy];
     //深拷贝 拷贝了一个新的对象
     NSString *str3 = [str1 mutableCopy];
      NSLog(@"%p--%p--%p",str1,str2,str3);
+     
+     
+     
      */
     
     /*
@@ -68,6 +73,23 @@
     NSLog(@"%p--%p--%p",array1,array2,array3);
     NSLog(@"%@--%@--%@",array1,array2,array3);
     */
+    
+    /*
+    RWNPerson * per =[[RWNPerson alloc] init];
+    per.name=@"RWN";
+    per.age=27;
+    
+    RWNPerson * per1 =[per copy];
+    per1.name=@"per1";
+    per1=per;
+    
+    RWNPerson * per2 =[per mutableCopy];
+    per2.name=@"per2";
+
+    NSLog(@"%p--%p--%p",per,per1,per2);
+    NSLog(@"%@--%@--%@",per.name,per1.name,per2.name);
+*/
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
